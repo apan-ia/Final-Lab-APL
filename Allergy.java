@@ -25,7 +25,7 @@ public class Allergy implements Subject{
     }
 
     public void reminder(String reminder) {
-        System.out.printf("\nAllergy: %s, Reminder: %s\n\n", allergyType, reminder);
+        System.out.printf("\nAllergy: %s, Reminder: %s\n", allergyType, reminder);
         remindPatient(reminder);
     }
 
